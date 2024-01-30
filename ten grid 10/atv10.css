@@ -1,0 +1,104 @@
+.box{
+    height: 1000px;
+    background-color:blueviolet;
+    display: grid;
+    grid-template-areas: " laterald topo lateral"
+                         " laterald cont  lateral "
+                         "laterald rod lateral";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 300px 1fr 300px;
+}
+
+
+
+.titulo{
+    background-color:red ;
+    grid-area: topo;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.conteudo{
+    background-color:chocolate;
+    grid-area: cont;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.rodape{
+    background-color: green;
+    grid-area: rod;
+    text-align: center;
+    padding: 70px;
+    
+    
+}
+
+
+
+
+.lateral {
+    background-color: yellow;
+    grid-area: lateral; 
+    display: flex;
+    flex-direction: column; 
+
+}
+
+.lateral .p1{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+   
+}
+.lateral .p2{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}
+
+.lateral .p3{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+}
+.laterald {
+    background-color:aqua;
+    grid-area:laterald ;
+    
+    
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 200px 650px;
+    grid-template-areas: "c1"
+                         "c2"
+                         "c3"
+    ;
+
+}
+
+.laterald .box1{
+    background-color: blue;
+    grid-area: c1;
+}
+
+.laterald .box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.laterald .box2{
+    background-color: yellow;
+    grid-area: c2;
+    text-align: center;
+}
+
+.laterald .box3{
+    background-color: rgb(169, 169, 94);
+    grid-area: c3;
+
+}
