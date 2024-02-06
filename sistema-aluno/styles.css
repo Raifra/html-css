@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header > img{
+    height: 60px;
+    width: 90px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+header nav > a:link {
+    text-decoration: none;
+    
+    
+  
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.main{
+    display: flex;
+    height: 500px;
+}
+
+.main > section{
+    flex: 4;
+    background-color: aqua;
+}
+
+.main > aside{
+    flex: 1;
+    background-color: pink;
+}
+
+footer{
+    height: 80px;   
+    background-color: brown;
+
+    
+}
