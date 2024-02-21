@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sisaluno</title>
+    <title>Aluno</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,34 +11,39 @@
     <header>
         <img src="img02.jpeg" alt="ppp">
         <nav>
+            
+            <a href="index.html">Voltar</a>
             <a href="aluno.html">Aluno</a>
-            <a href="professor.php">professor</a>
+            <a href="professor.html">Professor</a>
+            <a href="lista-aluno.html">Lista Aluno</a>
             
         </nav>
         <img src="img02.jpeg" alt="">
     </header>
     <article class="main">
         <section>
-            <h3>cadastro de aluno</h3>
+            <h3 style="text-align: center; font-size: 20px;">cadastro de aluno</h3>
 
             <form action="aluno.html">
 
                 <label for="nome">Nome</label>
-                <input type="text" nome="nome" id="nome" placeholder="digite o nome">
+                <input type ="text" nome="nome" id="nome" placeholder="Preencha">
                 <label for="endereço">Edereço</label>
-                <input type="text" name="endereço" id="endereço">
+                <input type="text" name="endereço" id="endereço"
+                placeholder="Preencha">
                 <label for="idade">idade</label>
-                <input type="number" nome="idade" id="idade">
+                <input type="number" nome="idade" id="idade"
+                placeholder="Preencha">
                 <label for="senha">Senha da conta</label>
-                <input type="password" nome="senha" id="senha">
+                <input type="password" nome="senha" id="senha" placeholder="Preencha">
                 <label for="e-mail">E-mail</label>
-                <input type="text" nome="e-mail" id="e-mail">
+                <input type="text" nome="e-mail" id="e-mail"placeholder="Preencha">
                 
-                <input type="submiter" value="salvar">
+               <br><br> <br> <input type="submiter" value="salvar" style="margin-top: 300px;">
             </form>
         </section>
     </article>
-    <footer>rodapé</footer>
+    <footer style="text-align: center;">rodapé</footer>
     
 </body>
 </html>

@@ -12,9 +12,12 @@ header > img{
 header > nav{
     display: flex;
     justify-content: space-between;
-    width: 200px;
-}
 
+}
+header > nav> a{
+    padding:0 10px
+
+}
 header nav > a:link {
     text-decoration: none;
     
@@ -34,17 +37,54 @@ header > nav > a:hover{
 
 .main > section{
     flex: 4;
-    background-color: aqua;
+    background-color:rgb(37, 75, 151);
 }
 
 .main > aside{
     flex: 1;
-    background-color: pink;
+    background-color: rgb(73, 90, 176);
 }
 
 footer{
     height: 80px;   
-    background-color: brown;
-
-    
+    background-color: rgb(15, 51, 159);
 }
+
+
+
+table, td, th {
+    border: 1px solid;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th{
+    background-color: rgb(209, 173, 163);
+
+
+  }
+
+  td{
+    color: rgb(214, 231, 228);
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  label{
+       color: rgb(0, 0, 0);
+       font-size: 20px;
+       
+
+  }
+
+  input{
+    width: 150px;
+    
+  }
+
+  
+  
